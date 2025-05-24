@@ -1,3 +1,9 @@
 # backup and history files
 *~
 *.backup
+
+# executeable
+ComBinE
+
+# object files
+objectfiles/*.o
