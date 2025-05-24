@@ -6,4 +6,4 @@
 ComBinE
 
 # object files
-objectfiles/*
+objectfiles/*.o
