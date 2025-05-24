@@ -1,0 +1,23 @@
+version 1.0.1
+- [evolution.cpp] allways stable RLO if q<1.5
+- [setup.cpp] converting eccentric anomaly to true anomaly
+- [evolution.cpp] post SN coalesce if peri-astron mass transfer
+
+version 1.1.0
+- including the carbon core mass (new tables include carbon core mass)
+
+version 1.2.0
+- including single star systems (binary fraction in data.in)
+- including mergers
+- including rotation/synchronisation by tides (tides in data.in, new tables include concentration factor)
+- speed output improved
+- improve position of interpolated TAMS
+- improve accuracy in finding the correct star in the grid
+- write track tables in single or debug mode of the system and the components (binary.csv, primary.csv, secondary.csv)
+- adopt stellar tables with new criterion for the core mass: m_core=m_tot-M_H/X_H^env, where X_H^env=M_H^env/M^env is the average abundance outside the burning region (where X passes X_thr=0.2*X_s+0.8*X_c), this can better handle convective regions (-> luminosity scaling no longer needed)
+- avoid extrapolation beyond stellar age during mass transfer
+- bug correction: wrong interpolation ratio in secondarys' lambda
+- improve determination of WD mass and keep the core mass info
+- implement an alternative angular momentum presciption for the CE
+- correting the period distribution by Sana et al. (2012)
+- common output format
