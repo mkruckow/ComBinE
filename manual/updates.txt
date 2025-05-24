@@ -1,0 +1,4 @@
+version 1.0.1
+- [evolution.cpp] allways stable RLO if q<1.5
+- [setup.cpp] converting eccentric anomaly to true anomaly
+- [evolution.cpp] post SN coalesce if peri-astron mass transfer
