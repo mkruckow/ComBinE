@@ -1,0 +1,10 @@
+he:	Mini[Msun] t[yr] lg(Teff/K) lg(L/Lsun) lg(R/Rsun) M[Msun] Mc[Msun]
+lambda:	M[Msun] R[Rsun] lambda
+star:	M[Msun] t[yr] R[Rsun] Mc[Msun] lg(L/Lsun) lg(Teff/K)
+*stars:	M[Msun] t[yr] R[Rsun] Mc[Msun] lg(L/Lsun) lg(Teff/K) lambdaG lambda {last line=negative index of TAMS}
+
+M=mass (ini=initial, c=core)
+t=time/age
+R=radius
+L=luminicity
+T=temperature (eff=effective)
